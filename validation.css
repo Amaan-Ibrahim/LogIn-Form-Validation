@@ -1,0 +1,71 @@
+body{
+    background-color: lightgray;
+}
+.div1{
+    background-color: whitesmoke;
+    width: 450px;
+    /* height: 465px; */
+    margin-left: 540px;
+    margin-top: 120px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+    box-shadow: 15px 15px 15px rgb(129, 125, 125);
+    /* padding: 30px; */
+}
+input{
+    width: 90%;
+    height: 45px;
+    margin-left: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 6px 5px rgb(175, 171, 171);
+    text-indent: 20px;
+    font-size: 17px;
+}
+.button1{
+    width: 93%;
+    height: 48px;
+    margin-left: 18px;
+    border-radius: 5px;
+    border: 1px solid  rgb(66, 66, 250);
+    background-color: rgb(57, 57, 236);
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgb(175, 171, 171);
+    font-size: 20px;
+    outline: none;
+    
+}
+.button2{
+    width: 93%;
+    height: 48px;
+    margin-left: 18px;
+    border-radius: 5px;
+    border: 1px solid rgb(6, 184, 30);
+    background-color: rgb(6, 184, 30);
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 10px 10px rgb(175, 171, 171);
+    font-size: 20px;
+}
+.para1{
+    color:rgb(250, 66, 66) ;
+    text-align: center;
+    display: none;
+}
+.para2{
+    color:rgb(250, 66, 66) ;
+    text-align: center; 
+    display: none;
+}
+.para3{
+    color:rgb(74, 91, 246) ;
+    text-align: center;
+    /* display: none; */
+}
+hr{
+    width: 90%;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="validation.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+</head>
+<body>
+    <div>
+        <div class="div1"> 
+            <br />
+            <!-- <br /> -->
+            <div>
+            <input type="email" action="/action_page.php" id="emailmy" placeholder="Email address or Phone Number" />
+            <!-- <p class="para1" id="para1">valid</p> -->
+            <p class="para1" id="para1" style="color:red; display: none; position: relative; left: 30px; top: 10px;">fill your Email   <i class="fa fa-frown-o" aria-hidden="true"></i></p>
+            </div>   
+            <br />
+            <br />
+            <input type="Password" id="passwordmy" placeholder="Password" /> 
+            <!-- <p class="para2" id="para2">valid</p>     -->
+            <p class="para2" id="para2" style="color:red; display: none; position: relative; left: 30px; top: 10px;">fill your password   <i class="fa fa-frown-o" aria-hidden="true"></i></p>
+            <div>  
+            <br />
+            <br />
+            <button class="button1" type="submit" onclick="formData();"> <b> Log In</b></button>
+            <br />
+            <br />
+            
+            <p class="para3"> Forgotten password?</p>
+            </div>
+
+            <hr>
+            <br />   
+            <button class="button2"><b> Create New Account</b></button>            
+        </div>
+    </div>
+</body>
+<script>
+
+var formData=()=>{
+
+var emailValue=document.getElementById("emailmy").value;
+var passwordValue=document.getElementById("passwordmy").value;
+// if(emailValue==="siddiqueraheel216@gmail.com" && passwordValue==="rasim123"){
+//   window.location.href="otherpage.html";
+    if(emailValue =='')
+		{
+        document.getElementById("para1").style.display="inline";
+			// alert("please enter user name.");
+		}
+		else if(passwordValue=='')
+		{
+        document.getElementById("para2").style.display="inline";    
+        	// alert("enter the password");
+		}
+		// else if(emailValue=='')
+		// {
+		// 	alert("Enter valid email id.");
+		// }
+		// else if(passwordValue=='')
+		// {
+		// 	alert("Enter valid password id.");
+		// }
+    else{
+// document.getElementById("emailmy").style.borderColor = "red";
+// document.getElementById("passwordmy").style.borderColor = "red";
+
+// document.getElementById("para1").style.display="none";
+// document.getElementById("para2").style.display="none";
+
+
+
+//    alert("plz enter Your all fileds")
+}
+}
+
+</script>
+</html>
